@@ -1,0 +1,354 @@
+/* Fuentes */
+@font-face {
+    font-family: Poppins;
+    src: url(./../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+/* hero section about */
+
+.hero-about-section {
+    /* border: 1px solid red; */
+    margin: 2rem 0;
+    background-image: linear-gradient(to right, rgba(184, 161, 161, 0.9),
+            rgba(87, 78, 78, 0.7)), url("../assets/images/about-background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-about-article {
+    /* border: 1px solid yellow; */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.hero-about-title {
+    font-family: Montserrat;
+    font-size: 3rem;
+    margin: .5rem 0;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.hero-about-text {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #FEFEFEFE;
+    text-align: center;
+}
+
+.about-title-h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+}
+
+/* history section */
+
+.history-article {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.history-container {
+    /* border: 1px solid red; */
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+}
+
+.history-box {
+    /* border: 1px solid blue; */
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    gap: .5rem;  
+    padding: .5rem; 
+}
+
+.history-text {
+    text-align: justify;
+    font-size: 1.2rem;
+    /* color: #EFEFEF; */
+}
+
+
+/* valores cards */
+
+.valores-card {
+    /* border: 1px solid green; */
+    border-radius: .5rem;
+    background-color: #EFEFEE;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+}
+
+.valores-card:hover{
+    background-color: #dedede;
+}
+
+/* icono de valores */
+
+.valores-icon {
+    flex: 1 1 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.valores-icon-p {
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    color: #9B1B30;
+}
+
+/* contenerdor valores texto */
+
+.valores-textbox {
+    flex: 1 1 80%;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.valores-title {
+    text-align: center;
+    font-family: Montserrat;
+    margin: 0;
+    margin-top: .6rem;
+    font-size: .9rem;
+}
+
+.valores-text {
+    font-size: .8rem;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* seccion team */
+
+
+
+.team-article {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    background-color: #EFEFEE;
+    border-radius: .5rem;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    gap: .5rem;
+}
+
+/* container header */
+
+.header-team {
+    /* border: 1px solid blue; */
+    display: flex;
+    /* max-width: 1200px; */
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    gap: 2rem;
+    border-radius: .5rem;
+    background-color: #dedede;
+    padding: .5rem;
+}
+
+.team-title { 
+    text-align: left;
+    /* flex: 1 1 300px; */
+    /* width: 87%; */
+    /* border: 1px solid red; */
+    padding-left: .5rem;
+    color: #9B1B30;
+    margin: 0;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.window-icons {
+    /* border: 1px solid green; */
+    /* flex:1 1 300px; */
+    /* width: 10%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.window-p {
+    margin: 0;
+    font-size: 1.4rem;
+    background-color: #9B1B30;
+    color: #EFEFEE;
+    border-radius: 75%;
+    padding: .5rem .8rem;
+}
+
+.window-p:hover {
+    background-color: #731B25;
+}
+
+/* team cards */
+
+.team-cards {
+    /* border: 1px solid red; */
+    background-color: #EFEFEE;
+    border-radius: .5rem;
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+/* card */
+
+.team-card {
+    /* border: 1px solid blue; */
+    background-color: #dedede;
+    border-radius: .5rem;
+    flex: 1 1 500px;
+    margin: .5rem;
+    padding: .5rem;
+    gap: .5rem;
+}
+
+.team-card:hover {
+    background-color: #cccccc;
+}
+
+/* card header */
+
+.team-card-header {
+    display: flex;
+    /* border: 1px solid green; */
+    max-width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    padding: .5rem;
+    align-items: center;
+}
+
+.team-card-title {
+    flex: 1 1 300px;
+    font-family: Montserrat;
+    font-variant: small-caps;
+    /* border: 1px solid red; */
+}
+
+.team-card-img-box {
+    /* border: 1px solid blue; */
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.team-card-img {
+    width: 50%;
+    border-radius: 80%;
+    background-color: #9B1B30;
+}
+
+/* card content */
+
+.team-card-content {
+    /* border: 2px solid orange; */
+    text-align: center;
+    padding: .5rem;
+}
+
+.team-card-name {
+    font-size: 1.2rem;
+    margin: .5rem 0;
+    font-weight: bold;
+    color: #9B1B30;
+}
+
+.team-card-text {
+    font-size: .9rem;
+    font-style: italic;
+}
+
+/* archievements section */
+
+.archievements-article {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+/* archievements cards */
+
+.archievement-cards {
+    /* border: 1px solid blue; */
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* logros card */
+
+.archievement-card {
+    flex: 1 1 300px;
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: #EFEFEE;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+}
+
+.archievement-icon {
+    flex: 1 1 15%;
+    font-size: 3rem;
+    padding: .5rem;
+    margin: 0;
+    align-self: center;
+    text-align: center;
+    color: #9B1B30;
+}
+
+.archievement-title {
+    flex: 1 1 80%;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    font-size: 1.2rem;
+}
+

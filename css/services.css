@@ -1,0 +1,213 @@
+/* Fuentes */
+@font-face {
+    font-family: Poppins;
+    src: url(./../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+/* services intro section */
+
+.services-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+/* desc services section */
+
+.desc-services-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    /* border: 1px solid blue; */
+}
+
+/* cartas */
+
+.desc-cards-container {
+    /* border: 1px solid blue; */
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .5rem;
+    gap: 1rem;
+
+}
+
+.desc-card {
+    flex: 1 1 500px;
+    /* border: 1px solid red; */
+    background-color: #EFEFEF;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #666666;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.desc-card:hover {
+    color: #272727;
+}
+
+.des-card-icon {
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    color: #9B1B30;
+}
+
+.desc-card-title {
+    font-family: Montserrat;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 1rem;
+    margin: .3rem 0;
+}
+
+.desc-card-text {
+    text-align: justify;
+    font-size: .8rem;
+    margin: .1rem 0;
+}
+
+.desc-card-readmore {
+    background-color: #9B1B30;
+    margin: .5rem;
+    padding: .5rem;
+    color: #EFEFEF;
+    text-align: center;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.desc-card-readmore:hover {
+    background-color: #731B25;
+}
+
+/* prices */
+
+
+
+.prices-section {
+    padding: .5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* border: 1px solid blue; */
+}
+
+.price-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    /* border: 1px solid green; */
+    gap: 2rem;
+}
+
+.price-box {
+    flex: 1 1 440px;
+    /* border: 1px solid red; */
+}
+
+.table-price {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.tr-price {
+    background-color: #EFEFEF;
+}
+
+.th-price {
+    padding: .5rem;
+    font-size: 1.2rem;
+    background-color: #9B1B30;
+    color: #ffffff;
+}
+
+.td-price{
+    color:#333333;
+    padding: .5rem;
+    text-align: left;
+}
+
+.td-price i {
+    display: block;
+    color: #2E7D32;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.price-box2 {
+    /* border: 1px solid blue; */
+    flex: 1 1 200px;
+    display: flex;
+}
+
+.price-img {
+    width: 100%;
+    align-self: center;
+}
+
+/* faq container */
+
+.faq-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    /* border: 1px solid red; */
+    padding: .5rem;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    gap: 1rem;
+}
+
+.faq-box {
+    display: flex;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.question {
+    flex: 1 1 400px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    align-self: center;
+    margin: .5rem 0;
+    /* border: 1px solid red; */
+    color: #731B25;
+}
+
+.answer {
+    flex: 1 1 600px;
+    font-style: italic;
+    text-align: right;
+    align-self: center;
+    margin: .5rem 0;
+}

@@ -1,0 +1,147 @@
+/* header */
+
+.header {
+    /* border: 1px solid red; */
+    border-bottom: 2px solid #EFEFEF;
+    background-color: #FFFFFF;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* logo */
+
+.logo-container{
+    flex: 1 1 200px;
+}
+
+.logo-text {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #9B1B30;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+/* nav */
+
+.nav {
+    /* border: 1px solid blue; */
+    width: 1000px;
+    flex: 1 1 700px;
+}
+
+.menu-list {
+    /* border: 1px solid green; */
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-li {
+    list-style: none;
+    flex: 1 1 200px;
+}
+
+.menu-link {
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    padding: .5rem;
+}
+
+.menu-link:hover {
+    color: #9B1B30;
+    background-color: #EFEFEF;
+    border-radius: .5rem;
+}
+
+.menu-link i {
+    padding-right: .5rem;
+}
+
+/* footer */
+
+.footer {
+    background-color: #333333;
+}
+
+.footer-container {
+    /* border: 1px solid red; */
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+.footer-list-container {
+    /* border: 1px solid blue; */
+    flex: 1 1 400px;
+}
+
+.footer-title {
+    color: #666666;
+    border-bottom: 1px solid #666666;
+    text-align: center;
+}
+
+.footer-list {
+ padding-left: .5rem;
+}
+
+.footer-li {
+    list-style: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #666666;
+}
+
+.footer-link:hover {
+    color: #EFEFEF;
+}
+
+/* footer social */
+
+.footer-list-social {
+    /* border: 1px solid red; */
+    display: flex;
+    max-width: 100%;
+    padding-left: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-li-social {
+    list-style: none;
+    flex: 1 25px;
+}
+
+.footer-link-social {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #666666;
+}
+
+.footer-link-social:hover {
+    color: #EFEFEF;
+}
+
+/* frase footer final */
+
+.footer-text-end {
+    border-top: 1px solid #666666;
+    color: #666666;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: center;
+}

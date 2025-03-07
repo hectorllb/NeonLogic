@@ -1,0 +1,251 @@
+/* Fuentes */
+@font-face {
+    font-family: Poppins;
+    src: url(./../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    margin: 0;
+}
+
+
+
+/* Main */
+
+.container {
+    /* border: 1px solid red; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+/* hero section */
+
+.hero-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.article-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+.hero-content-container {
+    /* border: 1px solid blue; */
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem;
+}
+
+.hero-text {
+    flex: 1 1 400px;
+    font-size: 1.1rem;
+    color: #666666;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero-img-container {
+    flex: 1 1 200px;
+    text-align: center;
+
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.hero-button {
+    margin: 1rem;
+    display: block;
+    padding: .7rem;
+    background-color: #9B1B30;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.hero-button:hover {
+    background-color: #731B25;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* section services */
+
+.service-article {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.services-text {
+    font-size: 1rem;
+    color: #666666;
+}
+
+/* services cards */
+
+.services-cards {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center;     */
+}
+
+.service-card {
+    flex: 1 1 300px;
+    text-align: center;
+    background-color: #EFEFEF;
+    border-radius: .5rem;
+    margin: .5rem;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.service-card:hover {
+    background-color: #dadada;
+}
+
+.card-title {
+    color: #9B1B30;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #333333;
+    font-size: 1.1rem;
+}
+
+.card-icon {
+    color: #333333;
+    margin: 0;
+    font-size: 5rem;
+}
+
+/* seccion de testimonios */
+
+
+.testimonials-article {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+}
+
+.testimonials-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.testimonials-card {
+    border: 2px solid #9B1B30;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: .5rem;
+    margin: .5rem;
+    flex: 1 1 500px;
+}
+
+.testimonials-text {
+    font-family: Montserrat;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.testimonials-auth {
+    font-style: italic;
+    color: #333333;
+    text-align: end;
+}
+
+/* Final cta seccion */
+
+.end-cta {
+    margin: 0;
+    background-color: #9B1B30;
+    padding: 2rem;
+}
+
+.cta-article {
+    /* border: 1px solid blue; */
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    align-items: center;
+}
+
+.cta-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #EFEFEF;
+}
+
+.link-cta-container {
+    width: 20%;
+}
+
+
+.cta-link {
+    display: block;
+    background-color: #731B25;
+    border-radius: .5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    /* font-size: 1.1rem; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cta-link i {
+    font-size: 1.1rem;
+    padding-right: .4rem;
+}
+
+.cta-link:hover {
+    background-color: #461117;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
