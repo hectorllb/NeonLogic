@@ -16,6 +16,11 @@
       href="./assets/images/logo.svg"
       type="image/x-icon"
     />
+
+    <!-- AOS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Home</title>
   </head>
   <body>
@@ -121,7 +126,7 @@
             <h2 class="article-title">Lo que dicen nuestros clientes</h2>
             <!-- contenedor cartas testimonios -->
             <div class="testimonials-cards">
-              <div class="testimonials-card">
+              <div class="testimonials-card" data-aos="fade-right">
                 <p class="testimonials-text">
                   "Gracias a NeonLogic, hemos transformado nuestra
                   infraestructura tecnológica. ¡Son la mejor decisión que hemos
@@ -131,7 +136,7 @@
                   Juan Pérez, CEO de Digital Innovators
                 </p>
               </div>
-              <div class="testimonials-card">
+              <div class="testimonials-card" data-aos="fade-left">
                 <p class="testimonials-text">
                   "Confiar en NeonLogic ha sido un cambio significativo para
                   nuestra empresa. Nos ayudaron a implementar una
@@ -141,7 +146,7 @@
                   María López, Directora de Operaciones en TechPro Solutions
                 </p>
               </div>
-              <div class="testimonials-card">
+              <div class="testimonials-card" data-aos="fade-up">
                 <p class="testimonials-text">
                   "Gracias a las soluciones de transformación digital de
                   NeonLogic, hemos aumentado nuestra productividad en un 40%. Un
@@ -316,5 +321,11 @@
         &copy; 2024 NeonLogic. Todos los derechos reservados.
       </p>
     </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
