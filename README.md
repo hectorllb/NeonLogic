@@ -20,7 +20,7 @@ This project is a web application that provides various pages including an about
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hectorllb/NeonLogic.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -35,7 +35,7 @@ This project is a web application that provides various pages including an about
 
 ## Screenshots
 
-![Screenshot of the main page](assets/images/screenshot.png) <!-- Placeholder for actual screenshot -->
+![Screenshot of the main page](assets/images/main-page.png) <!-- Placeholder for actual screenshot -->
 
 ## Contributing
 
@@ -47,4 +47,4 @@ This project is licensed under the MIT License.
 
 ## Contact Information
 
-For any inquiries, please reach out to [your-email@example.com].
+For any inquiries, please reach out to hectordelallaveballesteros@gmail.com.
